@@ -5,6 +5,9 @@ from payfunc import *
 class Test:
     def test_input_one(self):
         assert paytt(1) == 'success'
+
+    def test_input_two(self):
+        assert paytt(2) == 'success'
 # class Test_wrongkey:
 #     def test_input_equals_one(self):
 #         print('test1')
