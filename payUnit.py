@@ -19,9 +19,7 @@ class PayTest(unittest.TestCase):
         self.assertEqual(paytt(0), '支付失败', msg='error')
 
     def test_pt3(self):
-        self.assertEqual(paytt(2), '处理', msg='error')
-    def test4(self):
-        prin(1)
+        self.assertEqual(paytt(2), '处理中', msg='error')
 
 if __name__ == '__main__':
     unittest.main()
