@@ -8,6 +8,10 @@ class Test:
 
     def test_input_two(self):
         assert paytt(2) == 'processing'
+
+    def test_input_zero(self):
+        assert paytt(0) == 'processing'
+
 # class Test_wrongkey:
 #     def test_input_equals_one(self):
 #         print('test1')
