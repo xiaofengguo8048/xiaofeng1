@@ -20,7 +20,8 @@ class PayTest(unittest.TestCase):
 
     def test_pt3(self):
         self.assertEqual(paytt(2), '处理', msg='error')
-
+    def test4(self):
+        prin(1)
 
 if __name__ == '__main__':
     unittest.main()
