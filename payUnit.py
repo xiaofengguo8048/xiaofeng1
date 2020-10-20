@@ -13,13 +13,13 @@ class PayTest(unittest.TestCase):
         pass
 
     def test_pt1(self):
-        self.assertEqual(paytt(1), '支付成功', msg='error')
+        self.assertEqual(paytt(1), 'success', msg='error')
 
     def test_pt2(self):
-        self.assertEqual(paytt(0), '支付失败', msg='error')
+        self.assertEqual(paytt(0), 'fail', msg='error')
 
     def test_pt3(self):
-        self.assertEqual(paytt(2), '处理中', msg='error')
+        self.assertEqual(paytt(2), 'processing', msg='error')
 
 if __name__ == '__main__':
     unittest.main()

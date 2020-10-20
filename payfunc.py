@@ -1,7 +1,7 @@
 def paytt(a):
     if a == 1:
-        return '支付成功'
+        return 'success'
     if a == 0:
-        return '支付失败'
+        return 'fail'
     if a == 2:
-        return '处理中'
+        return 'processing'

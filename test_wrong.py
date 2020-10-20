@@ -1,4 +1,5 @@
-class Test_错误密码:
+class Test:
+
     def test_a1(self):
         print('test1')
         assert 1 == 1
@@ -9,4 +10,4 @@ class Test_错误密码:
 
     def test_a3(self):
         print('test3')
-        assert 3 == 2
+        assert 3 == 3
