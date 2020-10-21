@@ -1,0 +1,4 @@
+[run]
+source=test_wrongkey.py
+
+pytest --cov=./
