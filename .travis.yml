@@ -1,6 +1,7 @@
 language: python
-install: pip install python-coveralls
-script: pytest
-after_success:
-  - coveralls
+install: pip install coveralls
+script: 
+  -pytest
+  -coverage run --source=mypkg -m pytest tests/
+after_success: coveralls
 
