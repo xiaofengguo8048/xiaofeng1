@@ -10,7 +10,7 @@ class Test:
         assert paytt(2) == 'processing'
 
     def test_input_zero(self):
-        assert paytt(0) == 'processing'
+        assert paytt(0) == 'fail'
 
 # class Test_wrongkey:
 #     def test_input_equals_one(self):
