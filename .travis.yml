@@ -1,4 +1,6 @@
 language: python
+install: pip install python-coveralls
 script: pytest
-- yarn jest --coverage --coverageReporters=text-lcov | coveralls
+after_success:
+  - coveralls
 
