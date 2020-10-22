@@ -1,15 +1,6 @@
 language: python
 
-before_install: 
-  - pip install codecov 
-  - pip install coverage
 
-install: true
 
 script: 
   - pytest
-  - coverage run test_wrongkey.py
-
-after_success:
-  - bash <(curl -s https://codecov.io/bash) -t 2e6afc95-b193-42cd-9b9e-d812b495fa7e
-  - codecov
