@@ -7,7 +7,6 @@ before_install:
 install: true
 
 script: 
-  -pytest
   -pytest --cov=./
 
 after_success:
